@@ -1,0 +1,8 @@
+{
+  "name": "desafio04",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/marcosem/bootcamp-gostack-desafio-04.git",
+  "author": "Marcos Mathias <marcos-github@memathias.com>",
+  "license": "MIT"
+}
