@@ -81,9 +81,9 @@ class PostList extends Component {
     //console.log(posts);
     return (
       <div className="postlist">
-        {/*posts.map(post => (
+        {posts.map(post => (
           <PostItem key={post.id} {...post} />
-        ))*/}
+        ))}
       </div>
     );
   }

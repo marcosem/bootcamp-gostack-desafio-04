@@ -13,6 +13,9 @@ function PostHeader({ author, date }) {
 }
 
 function PostComments({ comments }) {
+  console.log(comments);
+
+
   return (
     <div className="post-comments">
       <div className="divider" />
@@ -39,4 +42,4 @@ function PostItem({ author, date, content, comments }) {
   );
 }
 
-export default PostItem();
+export default PostItem;
