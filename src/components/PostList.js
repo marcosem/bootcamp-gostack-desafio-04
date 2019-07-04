@@ -26,6 +26,26 @@ class PostList extends Component {
             content: 'Cachorro? Que Cachorro?'
           }
         ]
+      },
+      {
+        id: 2,
+        author: {
+          name: 'Anezka Mathias',
+          avatar: Avatar2
+        },
+        date: '04 Jul 2019',
+        content: 'Achei os cachorros!',
+        comments: [
+          {
+            id: 1,
+            author: {
+              name: 'Marcos Mathias',
+              avatar: Avatar1
+            },
+            date: '04 Jul 2019',
+            content: 'Que bom! E eles têm comida?'
+          }
+        ]
       }
     ]
 

@@ -13,9 +13,6 @@ function PostHeader({ author, date }) {
 }
 
 function PostComments({ comments }) {
-  console.log(comments);
-
-
   return (
     <div className="post-comments">
       <div className="divider" />
